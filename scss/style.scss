@@ -1,0 +1,16 @@
+@use "header" as *;
+@use "general" as *;
+@use "variables" as *;
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+body{
+    width: 100vw; 
+    height: 100vh;
+}

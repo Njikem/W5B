@@ -1,0 +1,1263 @@
+@use "variables" as *;
+
+#main-body {
+    min-height: 80vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 30px 20px 0px 20px;
+    position: relative;
+    background-color: $firstcolor;
+
+    .nick {
+        box-sizing: border-box;
+       
+        width: 100%;
+
+        .circle {
+            box-sizing: border-box;
+            background-color: red;
+            border-radius: 50%;
+            width: 75px;
+            height: 75px;
+
+        }
+
+        .norton {
+            box-sizing: border-box;
+            padding: 20px 0px;
+
+            >h1 {
+                font-size: xxx-large;
+            }
+
+            >p {
+                box-sizing: border-box;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                font-size: large;
+                line-height: 1.8;
+            }
+
+        }
+
+        .freepik{
+
+        box-sizing: border-box;
+        padding-bottom: 45px;
+        font-size: large;
+
+        >p a{
+            color: $secondcolor;
+        }
+
+        
+
+        }
+
+        >button{
+            padding: 15px 35px;
+            background-color: $secondcolor;
+            border: none;
+            color: $thirdcolor;
+            font-size: large;
+            letter-spacing: 2px;
+            cursor: pointer;
+
+        }
+    
+    }   
+
+
+}
+
+
+.image-one{
+        
+    max-width: 90vw;
+    box-sizing: border-box;
+    padding-top: 30px;
+    
+  
+
+       
+}
+
+
+#profile{
+    min-height: 80vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 60px;
+    position: relative;
+  
+
+    .web{
+        padding: 0px 0px 70px 15px;
+
+        >h1{
+            padding-bottom: 15px;
+        }
+
+        >p{
+            letter-spacing: 1px;
+            font-size: large;
+        }
+ 
+    }
+
+
+    .about{
+        padding: 0px 0px 40px 15px;
+        letter-spacing: .5px;
+        font-size:large;
+        line-height: 1.5;
+
+        >h2{
+            padding-bottom: 20px;
+        }
+
+        >p{
+            width: 90%;
+        }
+
+        .pik{
+            padding-top: 35px;
+            >p a{
+                color: $secondcolor;
+            }
+        }
+
+        
+    }
+
+}
+
+
+
+
+.details{
+    box-sizing: border-box;
+    padding: 35px 0px 25px 15px;
+
+    >h1{
+        padding-bottom: 20px;
+    }
+
+    >h2{
+        padding-bottom: 25px;
+        padding-top: 25px; 
+    }
+
+    >p{
+        font-size: large;
+    }
+}
+
+
+.social-media a img{
+    width: 20px;
+    padding-top: 40px;
+    margin: 5px;
+}
+
+.image-two{
+
+    img{
+        box-sizing: border-box;
+        width: 290px;
+        margin-left: 15px;
+        clip-path: circle();
+    }
+}
+
+
+#about-me{
+    box-sizing: border-box;
+    padding-top: 100px;
+
+    .second-about{
+        >h1{
+            font-size: xxx-large;
+            padding-bottom: 20px;
+            padding-left: 15px;
+        }
+
+        >p{
+            padding-left: 15px;
+            font-size: large;
+            line-height: 1.4;
+        }
+
+        .vita{
+            padding-bottom: 20px;
+            font-weight: 600;
+            line-height: 1;
+
+        }
+    }
+
+
+    .third-image{
+        padding-top: 30px;
+        padding-bottom: 35px;
+        position: relative;
+
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        height: 440px;
+        >img{
+
+            width: 320px;
+
+        }
+
+        .mail{
+            box-sizing: border-box;
+            width: 60%;
+            
+            background-color: $fifthcolor;
+            color: #fff;
+            font-size: large;
+            padding: 30px 0cm 30px 15px;
+            position: absolute;
+            
+            top: 200px;
+             left: 70px;
+            
+           
+          
+            >p{
+                padding-bottom: 20px;
+            }
+        }
+        
+    }
+
+
+    .free{
+        box-sizing: border-box;
+        padding-top: 45px;
+        padding-left: 18px;
+        padding-right: 18px;
+        width: 100%;
+
+        >p{
+            font-size: large;
+            line-height: 1.4;
+        }
+
+        .pik p{
+            padding-top: 25px;
+            padding-bottom: 30px;
+        
+           
+
+            >a{
+                color: $secondcolor;
+
+            }
+        }
+    }
+
+   
+}
+
+
+#Doing{
+    box-sizing: border-box;
+    padding-top: 50px;
+    background-color: $firstcolor;
+  
+    .what{
+        >h1{
+            font-size: xx-large;
+            padding-bottom: 25px;
+            padding-left: 20px;
+            
+           
+        }
+
+        >p{
+            padding-left: 20px;
+            font-family:  cursive;
+            padding-bottom: 50px;
+            font-size: large;
+        }
+    }
+
+
+    .light{
+        box-sizing: border-box;
+        display: flex;
+        justify-items: baseline;
+        align-items: center;
+        margin: 20px;
+      
+        
+      .sample{
+        box-sizing: border-box;
+        margin-left: 50px;
+        width: 80%;
+        position: relative;
+      }
+
+      >svg{
+       
+       padding: 9px 15px;
+        border-radius: 50%;
+        background-color: $fifthcolor;
+        margin-bottom: 70px;
+        margin-left: 15px;
+        
+      }
+     
+     
+      .text{
+        box-sizing: border-box;
+        padding-top: 20px;
+        >p{
+            font-size: large;
+            line-height: 1.2;
+        }
+      }
+      
+
+      .one{
+        >h3{
+            color: gray;
+            letter-spacing: 1px;
+        }
+      }
+     
+       
+    }
+
+    
+}
+
+
+
+
+#phones{
+
+box-sizing: border-box;
+    margin-top: 70px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    .main-phone{
+
+    box-sizing: border-box;
+    background-color: $fifthcolor;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+
+    .phone1 img{
+        box-sizing: border-box;
+        width: 300px;
+        height: 260px;
+        box-shadow: 20px 20px 34px rgb(255, 0, 0);
+        cursor: pointer;
+        padding-top: 10px;
+
+        &:hover{
+            color: $fourthcolor;
+        }
+       
+    }
+
+    .works{
+     box-sizing: border-box;
+     padding-top: 25px;
+     padding-left: 18px;
+     background-color: $thirdcolor;
+     padding-bottom: 35px;
+     text-align: center;
+     box-shadow: 35px 35px 40px rgba(255, 0, 0);
+     margin-top: 30px;
+     width: 80vw;
+
+
+        >h2{
+            padding-bottom: 20px;
+            font-size: xxx-larger;
+            line-height: 1.2;
+
+        }
+
+        >p{
+            font-size: large;
+            letter-spacing: .6px;
+            width: 90%;
+        }
+
+        .freepik1{
+            padding-top: 30px;
+            padding-bottom: 25px;
+
+            a{
+                color: $secondcolor;
+            }
+
+        }
+
+        button{
+
+           padding: 12px 25px 12px 25px;
+           color: #fff;
+           background-color: black;
+           border: none;
+           font-size: large;
+           letter-spacing: 1px;
+
+        }
+    }
+    
+}
+
+
+#frank{
+    box-sizing: border-box;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 18px;
+    background-color: $firstcolor;
+    padding-bottom: 80px;
+
+
+
+     svg{
+        display: none;
+     }
+
+
+}
+
+
+.mary{
+    box-sizing: border-box;
+
+    >img{
+
+       box-sizing: border-box;
+       margin: 17px;
+        width: 140px;
+       border-radius: 100%;
+       height: 140px;
+       border: 5px solid red;
+       margin-top: 50px;
+
+    }
+
+    >p{
+        font-size: medium;
+        line-height: 1.3;
+        padding-top: 40px;
+        width: 80%;     
+}
+
+    >h4{
+        box-sizing: border-box;
+        color: $fourthcolor;
+        font-weight: bold;
+        padding-top: 50px;
+        letter-spacing: 1px;
+    }
+
+}
+
+
+.frank2{
+
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 40px;
+    width: 100vw;
+
+    >img{
+
+        box-sizing: border-box;
+        width: 190px;
+        border-radius: 100%;
+        width: 140px;
+        height: 140px;
+        border: 5px solid red;
+        margin-top: 50px;
+       
+    }
+
+   >p{
+    font-size: medium;
+    line-height: 1.3;
+    padding-top: 35px;
+    width: 90%;
+  
+ 
+   }
+
+   >h4{
+
+    color: $fourthcolor;
+        font-weight: bold;
+        margin-top: 30px;
+        letter-spacing: 1px;
+
+   }
+
+   #piks p{
+    width: 150%;
+   }
+   
+   
+}
+
+
+#piks{ 
+    padding-top: 30px;
+ 
+    
+}
+
+#piks a{
+    color:$secondcolor;
+ 
+}
+
+
+#contact{
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+   
+
+}
+
+
+.text_one{
+    padding-left: 50px;
+}
+
+
+
+.contact-me{
+    box-sizing: border-box;
+
+    >h4{
+        color: #fff;
+        padding-left: 65px;
+        padding-top: 80px;
+        letter-spacing: 1px;
+    }
+
+   
+}
+
+
+.talk{
+    box-sizing: border-box;
+
+    >h1{
+        color: #fff;
+        font-size: xx-large;
+        padding-left: 50px;
+        padding-top: 25px;
+        letter-spacing: 1px;
+}
+
+  >p{
+    color:#fff;
+    width: 75%;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-weight: 600;
+    line-height: 1.2;
+    
+  }
+
+}
+
+.texts{
+
+
+    box-sizing: border-box;
+    padding-top: 50px;
+
+    div textarea{
+        padding: 25px 130px 55px 10px;
+        margin-top: 8px;
+    }
+
+}
+
+.place{
+    padding-top: 8px;
+    padding-bottom: 8px;
+     
+    >input{
+        padding: 15px 100px 15px 10px
+        
+        
+    }
+}
+
+ button{
+    padding: 15px 110px 15px 110px;
+    margin-top: 8px;
+    display: grid;  
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid #fff;
+    color: #fff;
+
+    >span{
+
+        text-align: center;
+        
+
+    }
+}
+
+
+#social-media{
+    box-sizing: border-box;
+    padding-top: 80px;
+    display: flex;
+    padding-right: 140px;
+    padding-bottom: 60px;
+   
+  
+
+    >a{
+
+     margin: 6px;
+
+     >h5{
+        color: white;
+        text-decoration: none;
+     }
+    }
+    
+}
+
+
+.samples{
+
+    box-sizing: border-box;
+    background-color: $fourthcolor;
+    padding: 40px 0px 35px 0px;
+    text-align: center;
+
+    >p{
+        padding-top: 20px;
+        color: #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 100px;
+        font-size: small;
+     
+    }
+    >a{
+
+        color: rgba(154, 58, 58, 0.852);
+        font-size: small;
+    }
+
+    >span{
+        font-size: small;
+        color: #fff;
+    }
+}
+
+
+/*Tablet*/
+
+@media only screen and (min-width:768px){
+
+
+
+#main-body{
+    width: 120%;
+}
+
+
+
+#main-body .nick {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 50px;
+}
+
+#main-body .nick .norton > h1 {
+    font-size: xxx-large;
+   
+}
+
+
+#main-body .nick .norton > p {
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: x-large;
+    line-height: 1.8;
+    padding-right: 20px;
+}
+
+
+.image-one {
+    max-width: 90vw;
+    box-sizing: border-box;
+    padding-top: 30px;
+    max-height: 90vh;
+}
+
+
+#profile{
+
+padding-left: 80px;
+
+}
+
+
+#about-me {
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+
+#about-me .second-about .vita {
+    padding-bottom: 20px;
+    font-weight: 600;
+    line-height: 1;
+    width: 80%;
+}
+
+#about-me .second-about > p {
+    padding-left: 15px;
+    font-size: large;
+    line-height: 1.4;
+    width: 80%;
+}
+
+#about-me .free > p {
+    font-size: large;
+    line-height: 1.4;
+    width: 70%;
+    margin-top: 140px;
+  
+}
+
+
+#about-me .third-image > img {
+    width: 650px;
+    margin-right: 40px;
+}
+
+
+#about-me .third-image .mail {
+    box-sizing: border-box;
+    width: 60%;
+    background-color: red;
+    color: #fff;
+    font-size: large;
+    padding: 30px 0cm 30px 15px;
+    position: absolute;
+     top: 330px; 
+    left: 70px;
+}
+
+
+.third-image{
+    height: 580px;
+}
+
+
+#Doing .what > h1 {
+    font-size: xx-large;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+#Doing .what > p {
+    padding-left: 20px;
+    font-family: cursive;
+    padding-bottom: 50px;
+    font-size: large;
+    text-align: center;
+    width: 90%;
+}
+
+
+#Doing .light .text > p {
+    font-size: large;
+    line-height: 1.2;
+    width: 70%;
+}
+
+#Doing{
+    width: 120%;
+}
+
+
+.light{
+    padding-left: 30px;
+}
+
+
+#phones{
+    width: 120%;
+}
+
+
+#phones .phone1 img {
+    box-sizing: border-box;
+    width: 800px;
+    height: 700px;
+    box-shadow: 20px 20px 14px rgb(255, 0, 0);
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+
+#phones .works {
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 18px;
+    background-color: #fff;
+    padding-bottom: 35px;
+    text-align: center;
+    box-shadow: 35px 35px 40px rgb(255, 0, 0);
+    margin-top: 30px;
+    width: 90vw;
+    
+}
+
+
+#phones .works > p {
+    font-size: large;
+    letter-spacing: 0.6px;
+  
+    padding-left: 50px;
+}
+
+ .icon6{
+    position: relative;
+    
+}
+
+
+#phones .works {
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 18px;
+    background-color: #fff;
+    padding-bottom: 35px;
+    text-align: center;
+    box-shadow: 35px 35px 40px rgb(255, 0, 0);
+    margin-top: 30px;
+    width: 90vw;
+    margin-left: 70px;
+    top: 50%;
+
+    
+
+}
+
+
+.works button{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+#frank{
+    padding-left: 150px;
+    width: 120%;
+}
+
+.mary{
+    margin-top: 28px;
+    >p{
+        width: 40%;
+       padding-top: 28px;
+    }
+}
+
+ 
+
+#contact{
+    width: 120%;
+}
+
+
+.talk{
+    >p{
+        width: 50%;
+      
+
+    }
+}
+
+.contact-me{
+    padding-left: 75px;
+}
+
+.text_one{
+    padding-left: 100px;
+}
+
+
+.texts{
+    padding-right: 300px;
+}
+
+
+.place > input {
+    padding: 15px 190px 15px 10px;
+}
+
+
+.texts div textarea {
+    padding: 25px 215px 55px 10px;
+    margin-top: 8px;
+}
+
+
+
+button {
+    padding: 15px 155px 15px 155px;
+    margin-top: 8px;
+    display: grid;
+    cursor: pointer;
+}
+
+
+#social-media{
+    box-sizing: border-box;
+    position: relative;
+    padding-right: 500px;
+    
+  
+}
+
+
+.samples{
+    width: 100%;
+
+    >p{
+        width: 90%;
+    }
+}
+
+
+}
+
+/*End of Tablet*/
+
+
+
+
+
+
+/*DeskTop*/
+
+
+@media only screen and (min-width:1020px){
+
+
+#main-body{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+   flex-direction: row;
+   
+
+}
+
+.image-one{
+    height: 80vh;
+    padding-right: 15px;
+}
+
+
+.norton{
+    >p{
+        width: 150%;
+    }
+}
+
+nav a{
+
+    &:hover{
+        color: blue;
+    }
+}
+
+
+.web{
+    text-align: center;
+
+    >h1{
+        font-size: xxx-large;
+    }
+
+    >P{
+        font-size: large;
+    }
+}
+
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#profile .about > p {
+    width: 50%;
+}
+
+
+
+.image-two{
+   
+padding-right: 45px;
+padding-bottom: 300px;
+  
+}
+
+.details {
+    box-sizing: border-box;
+    padding: 35px 80px 90px 15px;
+}
+
+
+.second-about p{
+    width: 55%;
+}
+
+.second-about .vita p{
+    width: 55%;
+}
+
+
+.third-image{
+
+    >img{
+        width:800px;
+    }
+    
+}
+
+
+#about-me .third-image .mail {
+    box-sizing: border-box;
+    width: 35%;
+    background-color: red;
+    color: #fff;
+    font-size: large;
+    padding: 30px 0cm 30px 15px;
+    position: absolute;
+    top: 400px;
+    left: 380px;
+    padding-bottom: 100px;
+}
+
+
+#about-me{
+    position:relative;
+    margin-bottom: 350px;
+
+}
+
+
+
+#about-me .free {
+    box-sizing: border-box;
+    padding-top: 45px;
+    padding-left: 18px;
+    padding-right: 18px;
+    width: 50%;
+    position: absolute;
+    top: 600px;
+
+    >p{
+        font-size: larger;
+    }
+}
+
+
+.what{
+
+   
+
+    >p{
+        width: 35%;
+        
+       
+    }
+
+    >h1{
+        padding-right: 180px;
+       
+    }
+}
+
+
+ .market{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr  1fr;
+    padding-right: 120px;
+}
+
+
+
+.main-phone1{
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+
+    
+    .phone1{
+
+        >img{
+            padding-right: 30px;
+            padding-top: 20px;
+    
+        }
+    }
+}
+
+
+#phones{
+    position: relative;
+    margin-bottom: 380px;
+}
+
+
+#phones .works > p {
+    font-size: large;
+    letter-spacing: 0.6px;
+    width: 70%;
+    padding-left: 150px;
+}
+
+
+#phones .works {
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 18px;
+    background-color: #fff;
+    padding-bottom: 35px;
+    text-align: center;
+    box-shadow: 35px 35px 40px rgb(255, 0, 0);
+    margin-top: 30px;
+    width: 90vw;
+    margin-left: 70px;
+    top: 95%;
+    left: 420px;
+    position: absolute;
+    width: 70vw;
+   
+    
+
+}
+
+
+#phones .works > p {
+    font-size: large;
+    letter-spacing: 0.6px;
+    width: 60%;
+}
+ 
+
+
+#phones .phone1{
+
+  img {
+    box-sizing: border-box;
+    width: 550px;
+    height: 550px;
+    box-shadow: 20px 20px 14px rgb(255, 0, 0);
+    cursor: pointer;
+    padding-top: 10px;
+    
+  
+}
+
+
+}
+    
+
+
+.mary > img {
+    box-sizing: border-box;
+    margin: 17px;
+    width: 140px;
+    border-radius: 100%;
+    height: 140px;
+    border: 5px solid red;
+    margin-top: 140px;
+}
+
+
+
+.frank2 > img {
+    box-sizing: border-box;
+    width: 190px;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    border: 5px solid red;
+    margin-top: 110px;
+}
+
+
+
+.frank2 > p {
+    font-size: medium;
+    line-height: 1.3;
+    padding-top: 35px;
+    width: 60%;
+}
+
+
+.contact_one{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+}
+
+
+
+
+
+
+/*End of DeskTop*/
